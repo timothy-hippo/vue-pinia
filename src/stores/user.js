@@ -7,7 +7,7 @@ export default defineStore('User Store', {
   }),
   actions: {
     getName () {
-      this.name = 'timothy'
+      this.data.name = 'timothy'
     },
     showName (name) {
       console.log(name)

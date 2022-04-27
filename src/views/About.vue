@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <input type="text" v-model="name">
-    <button type="button" @click="showName(name)">顯示</button>
+    <input type="text" v-model="data.name">
+    <button type="button" @click="showName(data.name)">顯示</button>
   </div>
 </template>
 
